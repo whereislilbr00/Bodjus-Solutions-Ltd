@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import './Services.css';
 
@@ -10,9 +9,9 @@ const services = [
     desc: 'Logos, flyers, posters, and more.',
     price: 'From KES 2,000',
     images: [
-      'images/photo 1.jpg',
-      'images/photo 3.jpg',
-      'images/photo2.jpg'
+      'images/photo%2011.jpg',
+      'images/photo%2012.jpg',
+      'images/photo%2017.jpg'
     ]
   },
   {
@@ -21,9 +20,16 @@ const services = [
     desc: 'Custom branding packages.',
     price: 'From KES 5,000',
     images: [
-      'images/bedjos logo.png',
-      'images/photo 5.jpg',
-      'images/photo6.jpg'
+      'images/photo%2013.jpg',
+      'images/photo%2016.jpg',
+      'images/photo%2018.jpg',
+      'images/branding%20photo%201.jpg',
+      'images/branding%20photo%202.jpg',
+      'images/branding%20photo%203.jpg',
+      'images/branding%20photo%204.jpg',
+      'images/branding%20photo%205.jpg',
+      'images/branding%20photo%206.jpg',
+      'images/branding%20photo%207.jpg'
     ]
   },
   {
@@ -32,20 +38,27 @@ const services = [
     desc: 'Business cards, banners, signage.',
     price: 'From KES 1,500',
     images: [
-      'images/photo 7.jpg',
-      'images/photo 8.jpg',
-      'images/photo 9.jpg'
-    ]
-  },
-  {
-    title: 'Security Printing',
-    icon: '🔒',
-    desc: 'Passbooks, certificates, secure docs.',
-    price: 'From KES 3,000',
-    images: [
-      'images/bedjos  shop.jpg',
-      'images/photo 10.jpg',
-      'images/photo 11.jpg'
+      'images/photo%201.jpg',
+      'images/photo%203.jpg',
+      'images/photo%205.jpg',
+      'images/photo%209.jpg',
+      'images/photo%2010.jpg',
+      'images/photo%2011.jpg',
+      'images/photo%2012.jpg',
+      'images/photo%2013.jpg',
+      'images/photo%2014.jpg',
+      'images/photo%2016.jpg',
+      'images/banner%20photo%201.jpg',
+      'images/banner%20photo%202.jpg',
+      'images/banner%20photo%203.jpg',
+      'images/banner%20photo%204.jpg',
+      'images/banner%20photo%205.jpg',
+      'images/signage%20photo%201.jpg',
+      'images/signage%20photo%202.jpg',
+      'images/signage%20photo%203.jpg',
+      'images/signage%20photo%204.jpg',
+      'images/signage%20photo%205.jpg',
+      'images/business%20card%20photo%201.jpg'
     ]
   },
   {
@@ -54,13 +67,23 @@ const services = [
     desc: 'T-shirts, uniforms, promo wear.',
     price: 'From KES 1,200',
     images: [
-      'images/photo 12.jpg',
-      'images/photo 13.jpg',
-      'images/photo 14.jpg',
-      'images/photo 15.jpg',
-      'images/photo 16.jpg',
-      'images/photo 17.jpg',
-      'images/photo 18.jpg'
+      'images/photo%207.jpg',
+      'images/photo%208.jpg',
+      'images/photo%2014.jpg',
+      'images/photo%2015.jpg',
+      'images/photo%2016.jpg',
+      'images/photo%2017.jpg',
+      'images/photo%2018.jpg',
+      'images/custom%20jersery%20photo%201.jpg',
+      'images/custom%20jersey%20photo%202.jpg',
+      'images/custom%20jersey%20photo%203.jpg',
+      'images/custom%20jersey%20photo%204.jpg',
+      'images/custom%20jersey%20photo%205.jpg',
+      'images/shirt%20photo%201.jpg',
+      'images/shirt%20photo%202.jpg',
+      'images/shirt%20photo%203.jpg',
+      'images/shirt%20photo%204.jpg',
+      'images/shirt%20photo%205.jpg'
     ]
   }
 ];

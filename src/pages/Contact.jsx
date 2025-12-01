@@ -18,6 +18,9 @@ export default function Contact() {
         <p><strong>Location:</strong> 6062 - 0300, Bondo, Kenya</p>
         <p><strong>Website:</strong> <a href="https://bedjossolutions.co.ke" target="_blank" rel="noopener noreferrer">bedjossolutions.co.ke</a></p>
         <p><strong>Facebook:</strong> <a href="https://www.facebook.com/BedjosSolutionsLtd" target="_blank" rel="noopener noreferrer">Bedjos Solutions</a></p>
+        <p><strong>Instagram:</strong> <a href="https://share.google/SskNyA8oXi15XzLWK" target="_blank" rel="noopener noreferrer">Bedjos Solutions</a></p>
+        <p><strong>YouTube:</strong> <a href="https://www.youtube.com/@bedjossolutionslimited6992" target="_blank" rel="noopener noreferrer">Bedjos Solutions</a></p>
+        <p><strong>TikTok:</strong> <a href="https://share.google/oCcMNOlb4CNBdRLJL" target="_blank" rel="noopener noreferrer">Bedjos Solutions</a></p>
       </div>
       <form className="contact-form glass" onSubmit={handleSubmit}>
         <h3>Send Us a Message</h3>
@@ -38,6 +41,9 @@ export default function Contact() {
           loading="lazy"
           title="Bedjos Solutions Location"
         ></iframe>
+      </div>
+      <div className="contact-footer">
+        <p>&copy; 2025 Bedjos Solutions. We Think. We Create. We Deliver.</p>
       </div>
     </section>
   );
